@@ -1,0 +1,5 @@
+train:
+  inputNeurons: [256, 128, 64, 32]
+  optim_decay: 0
+  epochs: 100000
+  lr: 0.0005
