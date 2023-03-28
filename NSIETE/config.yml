@@ -1,8 +1,8 @@
 train:
-  inputNeurons: [256, 128, 64, 32]
+  inputNeurons: [128, 32, 64, 16]
   optim_decay: 0
-  epochs: 5000
-  lr: 0.0005
+  epochs: 500
+  lr: 0.001
   
   
 preparation:
