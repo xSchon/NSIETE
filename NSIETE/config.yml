@@ -1,5 +1,24 @@
 train:
   inputNeurons: [256, 128, 64, 32]
   optim_decay: 0
-  epochs: 100000
+  epochs: 5000
   lr: 0.0005
+  
+  
+preparation:
+  selection_type: "feature_selection"
+  # selection type can be correlation (with threshold) or feature_selection (using features_amount) or none to pass
+  correlation_threshold: 0.1
+  features_amount: 20
+  outliers_columns: ['blueWardsPlaced', 'blueWardsDestroyed',
+       'blueKills', 'blueDeaths', 'blueAssists', 'blueTotalGold', 'blueAvgLevel',
+       'blueTotalExperience', 'blueTotalMinionsKilled',
+       'blueTotalJungleMinionsKilled', 'blueGoldDiff', 'blueExperienceDiff',
+       'redWardsPlaced', 'redWardsDestroyed', 'redAssists','redTotalGold',
+       'redAvgLevel', 'redTotalExperience', 'redTotalMinionsKilled',
+       'redTotalJungleMinionsKilled']
+  
+  # Perform test, train, validation split - the values together have to give 100
+  train_split: 70
+  test_split: 15
+  validation_split: 15
