@@ -1,0 +1,21 @@
+23:39:49,31 root INFO Training - small: {'lr': 0.01, 'epochs': 25, 'batchSize': 16}
+23:39:54,594 git.cmd DEBUG Popen(['git', 'cat-file', '--batch-check'], cwd=/home/xschon/Desktop/NSIETE/Projekt1, universal_newlines=False, shell=None, istream=<valid stream>)
+23:40:10,922 root INFO Results - Best accuracy on test: 73.5753, finished on 71.7204
+23:40:20,946 urllib3.connectionpool DEBUG Resetting dropped connection: o151352.ingest.sentry.io
+23:40:21,148 urllib3.connectionpool DEBUG https://o151352.ingest.sentry.io:443 "POST /api/5288891/envelope/ HTTP/1.1" 200 2
+23:43:51,812 root INFO Training - small: {'lr': 0.01, 'epochs': 25, 'batchSize': 16}
+23:43:59,272 git.cmd DEBUG Popen(['git', 'cat-file', '--batch-check'], cwd=/home/xschon/Desktop/NSIETE/Projekt1, universal_newlines=False, shell=None, istream=<valid stream>)
+23:44:15,143 root INFO Validation metrics: 
+    Accuracy: 0.6991
+    Recall: 0.7197
+    Precision: 0.6879.
+23:44:15,143 root INFO Results - Best accuracy on test: 73.6425, finished on 72.6747
+23:44:21,210 urllib3.connectionpool DEBUG https://o151352.ingest.sentry.io:443 "POST /api/5288891/envelope/ HTTP/1.1" 200 2
+23:45:31,730 root INFO Training - small: {'lr': 0.01, 'epochs': 25, 'batchSize': 16}
+23:45:37,633 git.cmd DEBUG Popen(['git', 'cat-file', '--batch-check'], cwd=/home/xschon/Desktop/NSIETE/Projekt1, universal_newlines=False, shell=None, istream=<valid stream>)
+23:45:52,849 root INFO Validation metrics: 
+    Accuracy: 0.695
+    Recall: 0.7279
+    Precision: 0.6798.
+23:45:52,850 root INFO Results - Best accuracy on test: 73.4543, finished on 72.4462
+23:46:21,499 urllib3.connectionpool DEBUG https://o151352.ingest.sentry.io:443 "POST /api/5288891/envelope/ HTTP/1.1" 200 2
